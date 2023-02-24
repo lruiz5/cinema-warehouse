@@ -4,7 +4,7 @@ import { Card } from "../components";
 
 export const MovieList = ({ api, title }) => {
   const { data: movies } = useFetch(api);
-  const pageTitle = useTitle(title);
+  useTitle(title);
   return (
     <main>
       <section className="text-7xl mx-auto py-7">
