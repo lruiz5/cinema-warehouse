@@ -75,11 +75,11 @@ export const MovieDetails = () => {
           </p>
           <p className="my-4">
             <span className="mr-2 font-bold">Budget: </span>
-            <span>{data.budget}</span>
+            <span>${data.budget}</span>
           </p>
           <p className="my-4">
             <span className="mr-2 font-bold">Revenue: </span>
-            <span>{data.revenue} min.</span>
+            <span>${data.revenue}</span>
           </p>
           <p className="my-4">
             <span className="mr-2 font-bold">Release Date: </span>
